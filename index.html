@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LaTeX Css</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/latex.css">
+    <link rel="stylesheet" href="css/prism.css">
+</head>
+
+<body>
+    <header>
+        <h1><span class="latex">7</span>t</span>h</span></span>semester</span>Project</span></h1>
+        <p class="author">Pabitra Senapati 20CS8072</p>
+        <p class="author">Ruchika Shaw 20CS8075</p>
+        
+    </header>
+    <main>
+        <!-- /*uncomment the below code to generate some para*/ -->
+        <!-- <article class="abstract">
+            <h2>Abstract</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut blanditiis, quos aliquid et quae qui placeat
+                earum similique modi, nam, quibusdam porro dolorem minima? Animi consequatur amet consectetur earum
+                tenetur.</p>
+        </article> -->
+        <nav role="navigation">
+            <h2>Contents</h2>
+            <ol>
+                <li><a href="#first-section">INTRODUCTION</a></li>
+                <li><a href="#second-section">PROBLEM STATEMENT</a></li>
+                <li><a href="#environment">SOLUTION</a>
+                    <ol>
+                        <li><a href="#theorems">Thinking Process</a></li>
+                        <li><a href="#definitions">Codes</a></li>
+                    </ol>
+                </li>
+                <li><a href="#last-section">REFERENCE</a></li>
+            </ol>
+        </nav>
+        <section>
+            <h2 id="first-section">Introduction</h2>
+            <p>In the contemporary digital landscape, where document presentation is paramount, LaTeX stands as a beacon of sophistication. However, its intricate syntax poses a challenge for many users. To address this, we introduce "LaTeXifyMe," a web application designed to simplify the LaTeX experience. Built with HTML and CSS for the frontend, and MongoDB and Node.js for the backend, LaTeXifyMe seamlessly converts user-input data into elegant LaTeX format using the LaTeX.css library.</p>
+        </section>
+
+        <!-- second section -->
+        <section>
+            <h2 id="second-section">Problem Statement</h2>
+            <p>A website that takes in user input and displays it in latex format.
+                The problem at hand revolves around the challenge of streamlining the user experience for generating LaTeX-formatted documents. Currently, the process of transforming user input into LaTeX format is encumbered by the intricacies of LaTeX syntax, presenting a barrier for individuals who seek a more accessible and user-friendly solution. The goal is to develop a website that not only takes in user input seamlessly but also presents the output in LaTeX format, simplifying the intricate aspects of LaTeX typesetting for a broader user base.
+                </p>
+        </section>
+
+        <!-- environment section -->
+        <section>
+            <h2 id="environment">Solution</h2>
+            <p>"LaTeXifyMe" addresses this challenge by providing a user-friendly interface for individuals to input their data. Leveraging HTML and CSS for the frontend, users interact effortlessly with the application, while the backend, powered by MongoDB and Node.js, handles the data processing and integration with the LaTeX.css library. This dynamic combination ensures that users can effortlessly generate high-quality, professionally formatted documents without grappling with the complexities of LaTeX syntax.
+            <h3 id="theorems">Thinkinng Process</h3>
+            <div class="Theorem and proofs">
+                User-friendly Interface: An intuitive HTML-based form for seamless data input.<br>
+                Real-time LaTeX Conversion: Immediate transformation of user data into LaTeX format, powered by Node.js.<br>
+                LaTeX.css Integration: Aesthetic and professional styling using the LaTeX.css library for HTML documents.<br>
+                Downloadable Output: Users can easily download their LaTeX-formatted documents for further use.<br>
+                </p>
+            </div>
+            <h3 id="definitions">Codes</h3>
+            <div>
+                code snippets of the html file
+                <section>
+                    <figure>
+                        <img src="image/image2.jpeg" alt="">
+                        <img src="image/image3.jpeg" alt="">
+                        <img src="image/image4.jpeg" alt="">
+                    </figure>
+                    <figcaption>css of the latex(https://latex.vercel.app/) file is used here.</figcaption>
+                </section>
+            </div>
+        </section>
+        <section>
+            <h2 id="last-section">Reference</h2>
+            <p>LaTeXifyMe" draws inspiration from the LaTeX.css library, an open-source project accessible on GitHub (https://latex.now.sh/). This project is seamlessly integrated into the web application, enhancing the visual appeal and professionalism of the LaTeX output. The technology stack comprises MongoDB, a robust NoSQL database, and Node.js, a versatile runtime for server-side applications, ensuring a responsive and efficient backend. Additionally, the project acknowledges the influence of the LaTeX typesetting system (https://www.latex-project.org/), an industry-standard in various academic and professional domains. Together, these technologies form the backbone of "LaTeXifyMe," democratizing the use of LaTeX for users across diverse backgrounds.
+            </p>
+        </section>
+    </main>
+    <script src="" async defer></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [["$", "$"], ["\{", "\}"]]
+            }
+        }
+    </script>
+    <script src="js/prism.js"></script>
+</body>
+</html>
